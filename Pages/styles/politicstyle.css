@@ -1,82 +1,77 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     text-decoration: none;
     font-family: "Oswald", "verdana";
-
-    
 }
-body{
+
+body {
     font-family: "Oswald", "verdana";
-
 }
-.InfoContact{
+
+.InfoContact {
     display: flex;
     align-items: center;
-    justify-content:flex-start;
-    
+    justify-content: flex-start;
 }
-.InfoContact li{
+
+.InfoContact li {
     display: inline-block;
-    
 }
-.InfoContact li a{
+
+.InfoContact li a {
     color: black;
     padding-left: 15px;
-    
-    
-
 }
 
-.socials li{
+.socials li {
     display: inline-block;
     padding-right: 15px;
-   
 }
-.socials img{
+
+.socials img {
     width: 25px;
     height: 25px;
     padding-bottom: 15px;
     transition: all ease-in 0.25s;
-
 }
 
-.socials{
+.socials {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     height: 5px;
     border-bottom: 1px solid grey;
-
 }
 
-.socials img:hover{
-
+.socials img:hover {
     transform: scale(1.2);
 }
-.Icon img{
+
+.Icon img {
     width: 450px;
     height: 400px;
-    
 }
-.Icon  a{
+
+.Icon a {
     display: flex;
 }
 
-.Icon{
+.Icon {
     display: flex;
     justify-content: center;
 }
 
-.head h1{
+.head h1 {
     display: flex;
     justify-content: center;
     text-align: center;
     font-size: xx-large;
 }
-.btnBack{
+
+.btnBack {
     text-decoration: none;
     color: white;
     background-color: green;
@@ -87,45 +82,122 @@ body{
     margin-top: 50px;
     transition: all ease 0.25s;
 }
-.btnBack a{
+
+.btnBack a {
     color: white;
 }
-.btnBack:hover{
+
+.btnBack:hover {
     background-color: rgb(179, 235, 179);
 }
-.InfoPolitica{
-    
+
+.InfoPolitica {
     background-color: #cbf0c1;
     text-align: center;
     font-size: x-large;
-    display:  flex;
+    display: flex;
     justify-content: flex-start;
-    
 }
-.InfoPolitica p{
+
+.InfoPolitica p {
     padding: 15px;
-
 }
 
-.headerInfo{
+.headerInfo {
     background-color: #cbf0c1;
     display: flex;
     justify-content: center;
     text-align: center;
     height: 150px;
-
     font-size: x-large;
 }
 
-#moral{
+#moral {
     padding-top: 50px;
 }
-.InfoPolitica{
+
+.InfoPolitica {
     border-bottom: 1px solid black;
 }
-footer{
+
+footer {
     padding-top: 25%;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     height: 150px;
+    text-align: center;
+}
+
+/* Media Queries for Mobile */
+@media (max-width: 768px) {
+    .head h1 {
+        font-size: large;
+    }
+
+    .Icon img {
+        width: 300px;
+        height: 250px;
+    }
+
+    .btnBack {
+        width: 80px;
+        height: 35px;
+    }
+
+    .headerInfo, .InfoPolitica {
+        font-size: large;
+        padding: 10px;
+    }
+
+    .InfoContact ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .InfoContact li {
+        display: block;
+        padding-bottom: 10px;
+    }
+
+    .socials {
+        height: auto;
+        border-bottom: none;
+        margin-bottom: 10px;
+    }
+
+    .socials img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .InfoPolitica {
+        font-size: medium;
+        padding: 10px;
+        border-bottom: none;
+    }
+
+    footer {
+        padding-top: 10%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .head h1 {
+        font-size: medium;
+    }
+
+    .Icon img {
+        width: 200px;
+        height: 150px;
+    }
+
+    .btnBack {
+        width: 70px;
+        height: 30px;
+    }
+
+    .headerInfo {
+        height: auto;
+    }
 }
