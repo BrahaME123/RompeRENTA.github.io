@@ -15,10 +15,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .InfoContact li {
     display: inline-block;
+    padding: 5px;
 }
 
 .InfoContact li a {
@@ -96,11 +98,14 @@ body {
     text-align: center;
     font-size: x-large;
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column; /* Default column layout */
+    align-items: center;
+    padding: 15px;
 }
 
 .InfoPolitica p {
     padding: 15px;
+    max-width: 800px; /* Optional: Limit the width for better readability */
 }
 
 .headerInfo {
@@ -132,7 +137,6 @@ footer {
 @media (max-width: 768px) {
     .head h1 {
         font-size: large;
-        background-color: rebeccapurple;
     }
 
     .Icon img {
@@ -148,10 +152,9 @@ footer {
     .headerInfo, .InfoPolitica {
         font-size: large;
         padding: 10px;
-        background-color: rgb(255, 0, 0);
     }
 
-    .InfoContact ul {
+    .InfoContact {
         flex-direction: column;
         align-items: flex-start;
     }
@@ -174,7 +177,6 @@ footer {
 
     .InfoPolitica {
         font-size: medium;
-        
         padding: 10px;
         border-bottom: none;
     }
