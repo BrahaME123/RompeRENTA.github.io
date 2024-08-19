@@ -140,6 +140,10 @@ header nav{
     text-align: center;
     transition: background-color 0.3s ease;
 }
+.whatsapp-button:active {
+    background-color: #128C7E; /* Color cuando el botón está presionado */
+}
+
 
 .whatsapp-button:hover {
     background-color: #128C7E; /* Color más oscuro para el hover */
@@ -239,4 +243,49 @@ header nav{
 
 }
 
+
+
+
+
+@media (max-width: 768px) {
+    .servicios h2 {
+        font-size: 28px;
+    }
+    
+    .servicios p {
+        font-size: 16px;
+    }
+    
+    .servicios ul {
+        padding-left: 20px;
+    }
+    
+    .articulos img {
+        width: 200px;
+        padding: 20px;
+    }
+    
+    .articulos {
+        padding-left: 20px;
+    }
+    
+    .Precios {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+    
+    .Precios ul {
+        width: 100%;
+    }
+    
+    .Precios h1 {
+        font-size: 36px;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+}
 
