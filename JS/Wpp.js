@@ -1,3 +1,3 @@
 function showMSG(){
-    alert("Gracias por Contactarnos!")
+    alert("Gracias por Contactarnos!");
 }
