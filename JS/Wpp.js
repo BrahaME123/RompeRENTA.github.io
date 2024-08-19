@@ -14,8 +14,9 @@ document.querySelectorAll('.whatsapp-button').forEach(button => {
       
       // Abre el enlace de WhatsApp en una nueva pestaña
       window.open(enlace, '_blank');
-    });
     alert("funciona")
+
+    });
 
   });
   
