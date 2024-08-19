@@ -12,10 +12,69 @@ body{
     font-family: "Oswald", "verdana";
 
 }
+.InfoContact{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    
+}
+.InfoContact li{
+    display: inline-block;
+    
+}
+.InfoContact li a{
+    color: black;
+    padding-left: 15px;
+    
+    
+
+}
+
+.socials li{
+    display: inline-block;
+    padding-right: 15px;
+   
+}
+.socials img{
+    width: 25px;
+    height: 25px;
+    padding-bottom: 15px;
+    transition: all ease-in 0.25s;
+
+}
+
+.socials{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 5px;
+    border-bottom: 1px solid grey;
+
+}
+
+.socials img:hover{
+
+    transform: scale(1.2);
+}
+.Icon img{
+    width: 450px;
+    height: 400px;
+    
+}
+.Icon  a{
+    display: flex;
+}
+
+.Icon{
+    display: flex;
+    justify-content: center;
+}
+
 .head h1{
     display: flex;
     justify-content: center;
     text-align: center;
+    font-size: xx-large;
 }
 .btnBack{
     text-decoration: none;
@@ -25,6 +84,7 @@ body{
     height: 40px;
     border-radius: 5px;
     border: none;
+    margin-top: 50px;
     transition: all ease 0.25s;
 }
 .btnBack a{
@@ -34,15 +94,37 @@ body{
     background-color: rgb(179, 235, 179);
 }
 .InfoPolitica{
-    margin-top: 50px;
-    padding: 50px;
+    
     background-color: #cbf0c1;
     text-align: center;
+    font-size: x-large;
+    display:  flex;
+    justify-content: flex-start;
+    
+}
+.InfoPolitica p{
+    padding: 15px;
+
 }
 
+.headerInfo{
+    background-color: #cbf0c1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 150px;
+
+    font-size: x-large;
+}
+
+#moral{
+    padding-top: 50px;
+}
+.InfoPolitica{
+    border-bottom: 1px solid black;
+}
 footer{
     padding-top: 25%;
-    border-top: 1px solid black;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     height: 150px;

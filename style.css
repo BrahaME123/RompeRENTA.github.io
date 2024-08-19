@@ -181,7 +181,7 @@ header nav{
 .articulos img:hover{
     border-radius: 25px;
     transform: scale(0.99);
-    box-shadow: 34px -16px rgb(255, 255, 255);
+    box-shadow: 15px -25px rgb(202, 199, 199);
 
 }
 .Precios ul{
@@ -196,6 +196,7 @@ header nav{
     
     display: flex;
     justify-content: center;
+    margin-top: 50px;
     text-align: center;
     height: 450px;
     background-image: url(images/BACKGROUNDS/fondo.jpg);
@@ -206,7 +207,7 @@ header nav{
 
 #tiempo{
     font-size: x-large;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 #costo{
@@ -214,15 +215,9 @@ header nav{
     padding: 35%;
     font-size: xx-large;
     height: 1px;
+    color: rgb(235, 228, 168);
 }
-.Precios #costo:hover{
-    background-color:rgba(247, 247, 247, 0.329);
-    transition: all ease-in 0.45s;
-    border-radius: 25px;
-    box-shadow: 0px 5px 15px rgb(255, 255, 255);
 
-
-}
 
 
 .Precios li{
