@@ -37,7 +37,17 @@ header nav{
     background-color: #f7f7f7;
     text-align: center;
 }
-
+#correos{
+    display: flex;
+    justify-content: center;
+    color: #6b89a1;
+    transition: all ease-out 0.25s;
+    
+}
+#correos:hover{
+    font-size: x-large;
+    transform: scale(1);
+}
 .servicios h2 {
     font-size: 36px;
     margin-bottom: 20px;
@@ -204,7 +214,9 @@ header nav{
     font-size: x-large;
 }
 .Precios{
-    
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
     display: flex;
     justify-content: center;
     margin-top: 50px;
@@ -214,6 +226,10 @@ header nav{
     background-repeat: no-repeat;
     background-position: center;
 
+}
+.Precios.visible{
+    opacity: 1;
+    transform: translateY(0);
 }
 
 #tiempo{
