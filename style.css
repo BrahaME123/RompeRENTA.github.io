@@ -181,7 +181,7 @@ header nav{
 .articulos img:hover{
     border-radius: 25px;
     transform: scale(0.99);
-    box-shadow: 15px -25px rgb(202, 199, 199);
+    box-shadow: 15px -25px rgb(189, 189, 189);
 
 }
 .Precios ul{
