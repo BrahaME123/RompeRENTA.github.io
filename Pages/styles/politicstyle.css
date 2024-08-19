@@ -147,6 +147,7 @@ footer {
     .headerInfo, .InfoPolitica {
         font-size: large;
         padding: 10px;
+        background-color: 100%;
     }
 
     .InfoContact ul {
