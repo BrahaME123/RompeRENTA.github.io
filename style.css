@@ -6,6 +6,7 @@
     list-style: none;
     text-decoration: none;
     font-family: "Oswald", "verdana";
+    transition: all ease-in 0.25s;
 
 }
 header nav{
