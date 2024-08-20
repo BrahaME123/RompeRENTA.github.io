@@ -362,17 +362,21 @@ header nav{
     }
     
     .articulos img {
-        width: 200px;
-        padding: 20px;
+        width: 100%; /* Ocupa el 100% del contenedor */
+        padding: 0; /* Elimina el padding para que las imágenes estén alineadas correctamente */
     }
     
     .articulos {
-        display: flex;
-        justify-content: center;
-
-
+        padding-left: 0; /* Elimina el padding izquierdo en móviles */
+        padding-right: 0; /* Asegura que tampoco haya padding derecho */
+        padding-top: 20px; /* Ajusta el padding superior según sea necesario */
+        justify-content: center; /* Asegura que los elementos estén centrados */
+        width: 100%; /* Asegura que el contenedor ocupe todo el ancho */
+        max-width: 100%; /* Previene que se desborde en pantallas pequeñas */
     }
-    
+    .articulos li {
+        margin: 0 auto; /* Centra cada elemento dentro del contenedor */
+    }
     .Precios {
         flex-direction: column;
         height: auto;
