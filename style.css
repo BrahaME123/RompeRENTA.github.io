@@ -97,7 +97,6 @@ header nav{
     justify-content: flex-end;
     align-items: center;
     height: 5px;
-    border-bottom: 1px solid grey;
 
 }
 
@@ -161,6 +160,22 @@ header nav{
     overflow: hidden;
 
 }
+.whatsapp-btn{
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
+    background-color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+
+}
+
+
+
+
 
 .articulos li {
     display: inline-block;

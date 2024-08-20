@@ -95,6 +95,21 @@ body {
     background-color: rgb(179, 235, 179);
 }
 
+
+.whatsapp-btn{
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
+    background-color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+
+}
+
+
 .InfoPolitica {
     background-color: #cbf0c1;
     text-align: center;
