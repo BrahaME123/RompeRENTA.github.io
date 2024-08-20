@@ -205,6 +205,28 @@ header nav{
     box-shadow: 15px -25px rgb(189, 189, 189);
 
 }
+
+.articlesHead{
+    
+    
+    background-color: rgb(165, 164, 164);
+    padding: 5px;
+    border-bottom: 5px solid yellow;
+    border-right: 2px solid yellow;
+}
+
+.backColor{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+
+   
+}
+
+
+
+
+
 .Precios ul{
     display: inline-block;
     text-align: center;
@@ -222,9 +244,7 @@ header nav{
     margin-top: 50px;
     text-align: center;
     height: 450px;
-    background-image: url(images/BACKGROUNDS/fondo.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    
 
 }
 .Precios.visible{
