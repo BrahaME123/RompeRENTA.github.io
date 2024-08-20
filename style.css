@@ -136,6 +136,49 @@ header nav{
     padding-bottom: 25%;
 }
 
+
+
+.articulo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Asegura que los botones ocupen todo el ancho del contenedor */
+    align-items: center; /* Centra los botones en el contenedor */
+}
+
+@media (max-width: 600px) {
+    .articulo-item {
+        padding: 5px;
+    }
+
+    .whatsapp-button {
+        padding: 15px;
+        font-size: 14px; /* Ajusta el tamaño de la fuente para pantallas más pequeñas */
+    }
+}
+
+.whatsapp-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #25D366; /* Color de WhatsApp */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    width: 80%; /* Ajusta el ancho del botón si es necesario */
+}
+
+
 .whatsapp-button {
     display: inline-block;
     padding: 10px 20px;
