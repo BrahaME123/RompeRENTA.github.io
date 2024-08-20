@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    document.querySelectorAll('.whatsapp-button').forEach(button => {
+    document.querySelectorAll('.whatsapp-btn').forEach(button => {
         button.addEventListener('click', function() {
             let numeroWhatsApp = "528117389778"; // Número en formato internacional sin el "+"
             let mensaje = `Hola, ¿Podrías darme más información acerca de las rompedoras??`;
