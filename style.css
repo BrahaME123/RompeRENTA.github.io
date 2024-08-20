@@ -280,6 +280,13 @@ header nav{
 
    
 }
+@media(max-width: 600px) {
+   .articulos{
+        display: flex;
+        justify-content: center;
+        
+   }
+}
 
 
 
