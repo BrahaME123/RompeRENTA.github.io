@@ -204,15 +204,19 @@ header nav{
 
 }
 .whatsapp-btn{
+     display: inline-block;
+    padding: 10px 20px;
     margin-top: 10px;
-    cursor: pointer;
-    text-align: center;
-    background-color: white;
+    background-color: #25D366; /* Color de WhatsApp */
+    color: white;
     font-size: 16px;
     font-weight: bold;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
     transition: background-color 0.3s ease;
+    width: 80%; /* Ajusta el ancho del botón si es necesario */
 
 }
 
