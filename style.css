@@ -231,6 +231,14 @@ header nav{
     width: 80%; /* Ajusta el ancho del botón si es necesario */
 }
 
+footer{
+    color: rgb(0, 0, 0); /* Color del texto */
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
 
 
 
