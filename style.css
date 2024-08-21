@@ -232,14 +232,14 @@ header nav{
 }
 
 footer{
-    color: rgb(0, 0, 0); /* Color del texto */
+    color: rgb(83, 83, 83); /* Color del texto */
     text-align: center;
     padding: 20px;
     position: relative;
     bottom: 0;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 
@@ -343,7 +343,7 @@ footer{
 #costo{
     flex-direction: column;
     padding: 35%;
-    font-size: xx-large;
+    font-size:xx-large;
     color: rgb(0, 0, 0);
 }
 #costo span{
