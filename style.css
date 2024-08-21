@@ -344,11 +344,11 @@ footer{
     flex-direction: column;
     padding: 35%;
     font-size: xx-large;
-    height: 1px;
     color: rgb(2, 41, 126);
 }
 #costo span{
     border-right: 5px solid yellow;
+    border-bottom: 2px solid yellow;
 }
 
 
