@@ -238,6 +238,8 @@ footer{
     position: relative;
     bottom: 0;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -344,6 +346,9 @@ footer{
     font-size: xx-large;
     height: 1px;
     color: rgb(2, 41, 126);
+}
+#costo span{
+    border-right: 5px solid yellow;
 }
 
 
