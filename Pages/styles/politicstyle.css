@@ -11,60 +11,63 @@ body {
     font-family: "Oswald", "verdana";
 }
 
-.InfoContact {
+.InfoContact{
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    border: none;
+    justify-content:flex-start;
+    
 }
-
-.InfoContact li {
+.InfoContact span{
+    padding: 15px;
+}
+.InfoContact li{
     display: inline-block;
-    padding: 5px;
+    
 }
-
-.InfoContact li a {
+.InfoContact li a{
     color: black;
     padding-left: 15px;
+    
+    
+
 }
 
-.socials li {
+.socials li{
     display: inline-block;
     padding-right: 15px;
+   
 }
-
-.socials img {
+.socials img{
     width: 25px;
     height: 25px;
     padding-bottom: 15px;
     transition: all ease-in 0.25s;
+
 }
 
-
-
-.socials {
+.socials{
     display: flex;
     justify-content: flex-end;
     align-items: center;
     height: 5px;
-    border-bottom: 1px solid grey;
+    
+
 }
 
-.socials img:hover {
+.socials img:hover{
+
     transform: scale(1.2);
 }
-
-.Icon img {
+.Icon img{
     width: 450px;
     height: 400px;
+    
 }
-
-.Icon a {
+.Icon  a{
     display: flex;
 }
 
-.Icon {
+.Icon{
     display: flex;
     justify-content: center;
 }
