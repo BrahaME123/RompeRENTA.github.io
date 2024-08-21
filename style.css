@@ -283,10 +283,10 @@ footer{
 }
 
 .articulos img:hover{
-    border-radius: 25px;
-    transform: scale(0.99);
-    box-shadow: 15px -25px rgb(189, 189, 189);
-
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-radius: 15px;
 }
 
 .articlesHead{
@@ -347,8 +347,7 @@ footer{
     color: rgb(0, 0, 0);
 }
 #costo span{
-    border-right: 2px solid yellow;
-    border-bottom: 5px solid yellow;
+    border-right:  5px solid yellow;
 }
 
 
@@ -370,6 +369,25 @@ footer{
 
 
 
+}
+.Renta{
+    padding: 25px;
+}
+
+.Renta h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;    
+}
+.Renta p{
+    display: flex;
+    justify-content: center;
+    text-align: center;   
+}
+.Renta a{
+    display: flex;
+    justify-content: center;
+    text-align: center  ;
 }
 
 
