@@ -138,6 +138,13 @@ body {
 #moral {
     padding-top: 50px;
 }
+#cuidados{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: x-large;
+}
 
 .InfoPolitica {
     border-bottom: 1px solid black;
