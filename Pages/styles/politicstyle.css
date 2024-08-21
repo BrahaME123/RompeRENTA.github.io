@@ -146,9 +146,24 @@ body {
     font-size: x-large;
 }
 
-.InfoPolitica {
-    border-bottom: 1px solid black;
+.InfoContact{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    
 }
+.InfoContact li{
+    display: inline-block;
+    
+}
+.InfoContact li a{
+    color: black;
+    padding-left: 15px;
+    
+    
+
+}
+
 
 footer{
     color: rgb(0, 0, 0); /* Color del texto */
