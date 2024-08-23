@@ -413,8 +413,7 @@ footer{
     }
     
     .articulos img {
-        width: 100%; /* Ocupa el 100% del contenedor */
-        padding: 0; /* Elimina el padding para que las imágenes estén alineadas correctamente */
+        pointer-events: none; /* Desactiva los eventos hover en móviles */
     }
     
     .articulos {
@@ -449,10 +448,4 @@ footer{
     
 }
 
-/* Para dispositivos que no soportan hover, como pantallas táctiles */
-@media (hover: none) {
-    .articulos img:hover {
-        transform: none; /* Desactiva la transformación en dispositivos táctiles */
-    }
-}
 
