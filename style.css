@@ -445,6 +445,14 @@ footer{
         max-width: 100%;
         height: auto;
     }
+
     
+}
+
+/* Para dispositivos que no soportan hover, como pantallas táctiles */
+@media (hover: none) {
+    .articulos img:hover {
+        transform: none; /* Desactiva la transformación en dispositivos táctiles */
+    }
 }
 
