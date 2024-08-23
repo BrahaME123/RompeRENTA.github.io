@@ -231,6 +231,11 @@ header nav{
     width: 80%; /* Ajusta el ancho del botón si es necesario */
 }
 
+.whatsapp-btn2:hover{
+    background-color: #128C7E; /* Color más oscuro para el hover */
+    overflow: hidden;
+
+}
 footer{
     color: rgb(83, 83, 83); /* Color del texto */
     text-align: center;
