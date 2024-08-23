@@ -416,7 +416,6 @@ footer{
         pointer-events: none; /* Desactiva los eventos hover en móviles */
     }
     .articulos img:hover{
-        transform: none; /* Desactiva la transformación en dispositivos táctiles */
         pointer-events: none; /* Desactiva los eventos hover en móviles */
 
     }
