@@ -415,7 +415,11 @@ footer{
     .articulos img {
         pointer-events: none; /* Desactiva los eventos hover en móviles */
     }
-    
+    .articulos img:hover{
+        transform: none; /* Desactiva la transformación en dispositivos táctiles */
+        pointer-events: none; /* Desactiva los eventos hover en móviles */
+
+    }
     .articulos {
         padding-left: 0; /* Elimina el padding izquierdo en móviles */
         padding-right: 0; /* Asegura que tampoco haya padding derecho */
